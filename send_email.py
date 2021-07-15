@@ -22,7 +22,7 @@ def sendmail(to_address, subject, body):
     smtp_server = 'smtp.gmail.com'
     smtp_port= 587
     smtp_user="corey.mcculley@gmail.com" ## change this
-    smtp_password="Trumpet123" ## change this
+    smtp_password="Trumpet123()" ## change this
 
     msg = text(body)
     msg['Subject'] = subject

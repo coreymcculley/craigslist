@@ -19,7 +19,7 @@ ITEMS_TO_LOOK = ['table saw'] # list of items to look. This should be a list suc
 url ='https://houston.craigslist.org/search/zip?search_distance=' + str(RADIUS) + '&postal=' + str(YOUR_ZIPCODE) + '&max_price=' + str(MAX_PRICE)
 
 ## intantiate a firefox browser instance
-driver=webdriver.Firefox()
+driver=webdriver.Chrome()
 ## load the url
 driver.get(url)
 
