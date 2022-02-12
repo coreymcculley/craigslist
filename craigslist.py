@@ -1,6 +1,6 @@
 ## import all the necessary modules. Make sure you have them.
 ## modules can be installed using pip﻿
-from selenium import webdriver
+import selenium
 from send_email import test_sendmail
 import time
 from text_unidecode import unidecode
